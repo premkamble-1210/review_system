@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+.Main_system{
+    height: 82vh;
+    width: 100%vh;
+    background-color: rgb(15, 18, 20);
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+.review_title{
+    height: 100px;
+    width: 97%;
+    /* background-color: rgba(165, 42, 42, 0.55); */
+    padding:0 1rem;
+    /* padding: 1.5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review_title p{
+    font-size:3rem;
+    color: white;
+}
+.File_upload_section{
+    height: auto;
+    width: 97%;
+    /* background-color: rgba(83, 165, 42, 0.55); */
+    padding:0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display_section{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(213, 213, 220, 0.53);
+}
+
+@media (max-width: 768px) {
+    .File_upload_section{
+        display: table;
+        
+    }
+    .Main_system{
+        height: auto;
+    }
+    .review_title p{
+        font-size: 2.4rem;
+    }
+
+}

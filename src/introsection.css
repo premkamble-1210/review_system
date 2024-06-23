@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+.main_intro{
+    height: 82vh;
+    width: 100%vh;
+    background-color: rgb(15, 18, 20);
+    border-radius: 1rem;
+    /* margin: 0.7rem; */
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_title{
+    height: 100%;
+    width: 60%;
+    /* background-color: blueviolet; */
+    border-radius: 1rem;
+}
+.empty_section{
+    height: 210px;
+    width: 100%;
+    background-color: transparent;
+}
+.title{
+    height: auto;
+    width: 100%;
+    /* margin: 0 0 0 0; */
+    margin-bottom: 0.5rem;
+
+}
+.title p{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: white;
+}
+.description{
+    height: auto;
+    width: 100%; 
+}
+.description p{
+    font-size: 1.6rem;
+    
+    color: rgb(156, 163, 145);
+}
+.try_now{
+    height: 50px;
+    width: 100%;
+    /* background-color: rgba(95, 158, 160, 0.612); */
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.trybtn{
+    height: 100%;
+    width: 150px;
+    /* background-color: chocolate; */
+    margin-left: 4rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.image_section{
+    height: 100%;
+    width: 40%;
+    /* background-color: rgba(165, 42, 42, 0.698); */
+}
+.image_section img{
+    height: 100%;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .main_intro {
+        display: table;
+        padding: 1.5rem 1.5rem 1.5rem 0;
+    }
+
+    .main_title {
+        width: 90%;
+        padding: 2rem;
+        text-align: left;
+        height: auto;
+
+    }
+    .empty_section{
+        height: 100px;
+    }
+    .main_title p{
+        font-size: 2rem;
+
+    }
+    .description p{
+        font-size: 1rem;
+
+    }
+
+    .try_now {
+        justify-content: start;
+    }
+
+    .trybtn {
+        margin-left: 4rem;
+    }
+
+    .image_section {
+        width: 90%;
+        height: auto;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:1rem;
+    }
+
+    .image_section img {
+        width:auto;
+        height: auto;
+        margin-left:1rem;
+    }
+}
