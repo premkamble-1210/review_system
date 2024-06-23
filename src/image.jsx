@@ -4,7 +4,7 @@ export default function ImageSection() {
         <div className="image_section">
             <div>
 
-            <img src="brain.png" alt="Brain illustration" className="image_section__img" />
+            <img src="brain.png" alt="Brain illustration..........." className="image_section__img" />
             </div>
         </div>
     );
