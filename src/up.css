@@ -81,6 +81,7 @@
     overflow-y: scroll;
     margin-left: 5rem;
     border-radius: 1rem;
+    border: 1px solid rgb(0, 128, 255);
 }
 .show_data p{
   color: #bbcada;
