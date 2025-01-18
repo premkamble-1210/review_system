@@ -95,7 +95,7 @@ export default function UPload({handleonjinfile}) {
 
   const funcall = async () => {
     try {
-      const genAI = new GoogleGenerativeAI("AIzaSyCUAcPSWAeDeryJzKkN-Vtr_5aw6FTqqlo"); // Replace with your API key
+      const genAI = new GoogleGenerativeAI("AIzaSyCDCAlvObbBhoqBr73ET9z4SWVz_822usk"); // Replace with your API key
       const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash-latest' });
       const promtgen=`Job Title: ${promttype} Output:Provide a brief analysis of the resume based on the job title. Limit each section to 50 words.1. Relevance: Evaluate how well the resume aligns with the requirements and expectations of the specified job title. 2. Skills: Assess the candidate's skills and competencies relevant to the job role. 3. Experience: Review the candidate's work experience in relation to the job requirements, noting strengths and areas for improvement. 4. AchievementsHighlight significant accomplishments that demonstrate the candidate's capabilities and achievements. 5. Formatting: Evaluate the organization and clarity of the resume layout and content presentation. 6. Recommendations: Provide actionable suggestions to enhance the resume's effectiveness and alignment with the specified job title.Rating: Provide an overall rating for the resume out of 100 points, considering its alignment with the job title, skillset relevance, experience match, achievements, and presentation quality give data in key value pair according with given points`;
       const prompt = promtgen;
